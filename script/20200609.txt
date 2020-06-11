@@ -1,8 +1,1 @@
-这是一段测试文本111111-dev222222222
-在master上加一行
-<<<<<<< HEAD
-dev进行了改动
-=======
-在master再加一行
->>>>>>> master
-master加加加
+Dev merge
