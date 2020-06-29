@@ -1,2 +1,6 @@
 新建ddd
+<<<<<<< HEAD
 测试抽死你国土, 本地
+=======
+测试冲突
+>>>>>>> branch 'develop' of https://github.com/sUnShinEo0/scriptRepository.git
