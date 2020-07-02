@@ -1,0 +1,7 @@
+a  develop
+dada
+Local merge
+remote change a
+Push a
+Local a push merege
+remote a
