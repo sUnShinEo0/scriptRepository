@@ -1,0 +1,22 @@
+import com.smy.framework.core.util.*;
+
+//
+String defaultVal = "-9999";
+String result = defaultVal;
+if (StringUtils.isEmpty(mobilePhoneNo)) {
+	return result;
+} else {
+    Map param = new HashMap();
+    param.put("mobile_no", mobilePhoneNo);
+    List list = (List)getDataSet(amsCustRegisterInfoKey, param);
+    
+    if(CollectionUtil.isNotEmpty(list)) {
+        Map map = (Map)list.get(0);
+        String qdId = (String)map.get("qd_id");
+        if(StringUtils.isNotEmpty(qdId)) {
+            result = qdId;
+        }
+    }
+    
+	return result;
+}
