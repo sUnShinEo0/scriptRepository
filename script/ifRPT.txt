@@ -1,6 +1,6 @@
 import com.smy.framework.core.util.*;
 import com.smy.rms.front.enums.EventType;
-
+//test modify
 String result = "-9999";
 if (StringUtils.isBlank(eventType) || StringUtils.isBlank(custNo)){
     log("getIfInChgRgsPhoneTime方法传入参数为空！变量取默认值-9999", "debug");
